@@ -726,7 +726,6 @@ fieldset[disabled] .btn-theme {
 /* Navbar */
 .header .navbar {
   margin-bottom: 0;
-  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
   transition-duration: 300ms;
   transition-property: all;
   transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1001,8 +1000,8 @@ fieldset[disabled] .btn-theme {
 /* Page On Scroll */
 @media (min-width: 992px) {
   .page-on-scroll .header .navbar {
-    background: #fff;
-    border-bottom-color: #f0f0f0;
+    background: rgb(24, 24, 24, 0.9);
+    backdrop-filter: blur(10px);
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1020,7 +1019,7 @@ fieldset[disabled] .btn-theme {
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
   }
   .page-on-scroll .header .nav-item-child {
-    color: #515769;
+    color: white;
     transition-duration: 300ms;
     transition-property: all;
     transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
@@ -1239,6 +1238,7 @@ fieldset[disabled] .btn-theme {
 
 
 
+
 .bg-color-white {
   background: #fff !important;
 }
@@ -1261,6 +1261,9 @@ fieldset[disabled] .btn-theme {
 
 .bg-color-sky-light {
   background-image: url(https://ak.picdn.net/shutterstock/videos/21933883/thumb/1.jpg?ip=x480);
+}
+.bg-color-sky-home {
+  background-image: white;
 }
 .bg-color-el {
   background-image: "img/backel.jpg";
